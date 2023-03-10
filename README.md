@@ -12,8 +12,16 @@ docker-android
 
 #### 使用说明
 
-1.  完善中
-2.  xxxx
-3.  xxxx
+
+```
+docker run -itd --rm --privileged \
+  --pull always \
+  -v /mmc/zcg1:/data \
+  -v /dev/net/tun:/dev/tun \
+  -v /dev/mali0:/dev/mali0 \
+  -p 5501:5555 \
+  --name dobox1 \
+  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
+```
 
 
