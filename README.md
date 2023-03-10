@@ -17,6 +17,14 @@ docker-android
 2.  必须插上nvme
 3.  刷写我们制作好的rom
 
+#### 更新记录
+
+20230311
+- 更换默认浏览器
+- 增加vpn支持
+20230310
+- 初始版本发布
+
 #### 使用说明
 
 ```
@@ -27,7 +35,7 @@ docker run -itd --rm --privileged \
   -v /dev/mali0:/dev/mali0 \
   -p 5501:5555 \
   --name dobox1 \
-  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
+  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303011
   
 docker run -itd --rm --privileged \
   --pull always \
@@ -36,7 +44,7 @@ docker run -itd --rm --privileged \
   -v /dev/mali0:/dev/mali0 \
   -p 5502:5555 \
   --name dobox2 \
-  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
+  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303011
   
 ```
 ![输入图片说明](jpg/91095e5d10c5d87b133256071a5b7df.jpg)
