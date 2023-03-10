@@ -3,7 +3,7 @@ B站：https://space.bilibili.com/36958872
 
 - 下方有微信群二维码
 - 免费群控进群统一发放
-- RK3588服务器1599整机配套
+- RK3588/16G/256GNVME服务器1599整机 进群咨询
 
 #### 介绍
 docker-android 
