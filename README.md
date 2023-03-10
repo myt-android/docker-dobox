@@ -1,6 +1,8 @@
 # docker-dobox/免费版
 B站：https://space.bilibili.com/36958872
+
 下方有微信群二维码
+免费群控进群统一发放
 
 #### 介绍
 docker-android 
