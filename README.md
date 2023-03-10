@@ -1,7 +1,7 @@
 # docker-dobox/免费版
 B站：https://space.bilibili.com/36958872
 下方有微信群二维码
-![输入图片说明](91095e5d10c5d87b133256071a5b7df.jpg)
+
 #### 介绍
 docker-android 
 容器安卓12 gpu直通 编码器直通 性能无损
@@ -35,5 +35,5 @@ docker run -itd --rm --privileged \
   registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
   
 ```
-![输入图片说明](47a5856531f39607259ff7534bf11b0.jpg)
-
+![输入图片说明](jpg/91095e5d10c5d87b133256071a5b7df.jpg)
+![输入图片说明](jpg/47a5856531f39607259ff7534bf11b0.jpg)
