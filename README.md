@@ -3,6 +3,7 @@
 #### 介绍
 docker-android 
 容器安卓12 gpu直通 编码器直通 性能无损
+对内核有特定要求,目前适配尽力有限,进群配合适配
 
 #### 安装要求
 
@@ -11,7 +12,6 @@ docker-android
 3.  刷写我们制作好的rom
 
 #### 使用说明
-
 
 ```
 docker run -itd --rm --privileged \
@@ -33,5 +33,5 @@ docker run -itd --rm --privileged \
   registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
   
 ```
-
+![输入图片说明](47a5856531f39607259ff7534bf11b0.jpg)
 
