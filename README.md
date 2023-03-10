@@ -22,6 +22,16 @@ docker run -itd --rm --privileged \
   -p 5501:5555 \
   --name dobox1 \
   registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
+  
+docker run -itd --rm --privileged \
+  --pull always \
+  -v /mmc/zcg2:/data \
+  -v /dev/net/tun:/dev/tun \
+  -v /dev/mali0:/dev/mali0 \
+  -p 5502:5555 \
+  --name dobox2 \
+  registry.cn-hangzhou.aliyuncs.com/whsyf/dobox:rk3588-202303010
+  
 ```
 
 
